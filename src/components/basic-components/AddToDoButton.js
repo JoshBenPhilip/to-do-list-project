@@ -5,7 +5,7 @@ import { ToDoListContext} from '../context/ToDoListContext';
 export const AddToDoButton = () => {
     const { input, todoList, setToDoList, setInput } =
     useContext(ToDoListContext);
-}
+
 
 const onClick = () => {
     if (!input) {
